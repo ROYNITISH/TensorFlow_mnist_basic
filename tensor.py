@@ -10,7 +10,7 @@ sess=tf.InteractiveSession()
 
 #reading the data set  (don't know if this is only for mnist or for different
 #datasets)
-mnist = input_data.read_data_sets("/home/mrheadshot/Desktop/datasets/MNIST_data/",one_hot=True)
+mnist = input_data.read_data_sets("path_to_folder_which_conatins/MNIST_data/",one_hot=True)
 
 #designing the placeholders as we know our images are in the shape (1,784)
 #placeholder  for images
