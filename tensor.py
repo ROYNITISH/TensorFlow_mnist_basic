@@ -53,5 +53,5 @@ for x in range(2000):
 
 #measuring the final accuracy 
 feed_dict= {input_images:mnist.test.images,target_labels:mnist.test.labels}
-print("Accuracy"  + str(accuracy.eval(feed_dict={input_images: mnist.test.images, target_labels: mnist.test.labels})))
+print("Accuracy"  + str(accuracy.eval(feed_dict=feed_dict)))
 
